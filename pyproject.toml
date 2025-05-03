@@ -3,7 +3,7 @@ requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "hello_world_mcp"
+name = "python_hello_warp_mcp"
 version = "0.1.0"
 description = "A simple 'Hello World' MCP server for Warp Terminal"
 readme = "README.md"
@@ -23,4 +23,4 @@ dev = [
 ]
 
 [tool.setuptools]
-packages = ["hello_world_mcp"]
+packages = ["python_hello_warp_mcp"]

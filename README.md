@@ -8,7 +8,7 @@ To use this MCP server with Warp Terminal, add this line to your Warp configurat
 
 ```json
 {
-  "mcp_server_command": "/path/to/your/python -m hello_world_mcp"
+  "mcp_server_command": "/path/to/your/python -m python_hello_warp_mcp"
 }
 ```
 
@@ -20,8 +20,8 @@ Make sure to replace `/path/to/your/python` with the actual path to your Python 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/hello_world_mcp.git
-cd hello_world_mcp
+git clone https://github.com/yourusername/python-hello-warp-mcp.git
+cd python-hello-warp-mcp
 
 # Set up virtual environment (if not already created)
 python -m venv .venv
@@ -39,10 +39,10 @@ To use with Warp Terminal, run the server with the standard "stdio" transport:
 
 ```bash
 # Run using stdio transport for Warp Terminal integration (default)
-python -m hello_world_mcp
+python -m python_hello_warp_mcp
 
 # Or explicitly specify stdio transport
-python -m hello_world_mcp --transport stdio
+python -m python_hello_warp_mcp --transport stdio
 ```
 
 This allows Warp Terminal to communicate with your MCP server via standard input and output.
@@ -53,7 +53,7 @@ For testing or debugging, you can also run the server with the SSE (Server-Sent 
 
 ```bash
 # Run with SSE transport for HTTP access
-python -m hello_world_mcp --transport sse
+python -m python_hello_warp_mcp --transport sse
 ```
 
 ## Features
@@ -66,8 +66,8 @@ This simple MCP server provides:
 ## Project Structure
 
 ```
-hello_world_mcp/
-├── hello_world_mcp/
+python-hello-warp-mcp/
+├── python_hello_warp_mcp/
 │   ├── __init__.py
 │   ├── __main__.py  # CLI entry point
 │   └── server.py    # MCP server implementation

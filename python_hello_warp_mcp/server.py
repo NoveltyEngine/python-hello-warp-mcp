@@ -1,4 +1,4 @@
-# hello_world_mcp/server.py
+# python_hello_warp_mcp/server.py
 from mcp.server.fastmcp import FastMCP
 
 # Create an MCP server
