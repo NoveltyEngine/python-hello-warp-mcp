@@ -20,7 +20,7 @@ Make sure to replace `/path/to/your/python` with the actual path to your Python 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/python-hello-warp-mcp.git
+git clone https://github.com/NoveltyEngine/python-hello-warp-mcp.git
 cd python-hello-warp-mcp
 
 # Set up virtual environment (if not already created)
