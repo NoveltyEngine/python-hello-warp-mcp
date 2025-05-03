@@ -50,20 +50,6 @@ This simple MCP server provides:
 1. A `hello` tool that returns a greeting message
 2. A `greeting://` resource that provides a personalized greeting
 
-## Project Structure
-
-```
-python-hello-warp-mcp/
-├── python_hello_warp_mcp/
-│   ├── __init__.py
-│   ├── __main__.py  # CLI entry point
-│   └── server.py    # MCP server implementation
-├── README.md
-├── LICENSE
-├── .gitignore
-└── pyproject.toml
-```
-
 ## License
 
 MIT
