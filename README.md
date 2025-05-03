@@ -35,11 +35,10 @@ uv pip install -e ".[dev]"  # Alternatively: pip install -e ".[dev]"
 
 ### For Warp Terminal Integration
 
-To use with Warp Terminal, run the server:
+To use with Warp Terminal, go to the page to create a new MCP server, and enter this in "Command to run":
 
 ```bash
-# Run the server for Warp Terminal integration
-python -m python_hello_warp_mcp
+/path/to/your/python -m python_hello_warp_mcp
 ```
 
 This allows Warp Terminal to communicate with your MCP server via standard input and output.
