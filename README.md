@@ -35,26 +35,14 @@ uv pip install -e ".[dev]"  # Alternatively: pip install -e ".[dev]"
 
 ### For Warp Terminal Integration
 
-To use with Warp Terminal, run the server with the standard "stdio" transport:
+To use with Warp Terminal, run the server:
 
 ```bash
-# Run using stdio transport for Warp Terminal integration (default)
+# Run the server for Warp Terminal integration
 python -m python_hello_warp_mcp
-
-# Or explicitly specify stdio transport
-python -m python_hello_warp_mcp --transport stdio
 ```
 
 This allows Warp Terminal to communicate with your MCP server via standard input and output.
-
-### For HTTP Access (Optional)
-
-For testing or debugging, you can also run the server with the SSE (Server-Sent Events) transport:
-
-```bash
-# Run with SSE transport for HTTP access
-python -m python_hello_warp_mcp --transport sse
-```
 
 ## Features
 
