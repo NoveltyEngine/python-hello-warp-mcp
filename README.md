@@ -2,18 +2,6 @@
 
 A simple "Hello World" Machine Conversational Protocol (MCP) server implementation for Warp Terminal.
 
-## Quick Start for Warp Terminal
-
-To use this MCP server with Warp Terminal, add this line to your Warp configuration:
-
-```json
-{
-  "mcp_server_command": "/path/to/your/python -m python_hello_warp_mcp"
-}
-```
-
-Make sure to replace `/path/to/your/python` with the actual path to your Python interpreter (ideally in a virtual environment).
-
 ## Installation
 
 ### Development Installation
