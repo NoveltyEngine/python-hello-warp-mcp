@@ -2,6 +2,8 @@
 
 A simple "Hello World" Machine Conversational Protocol (MCP) server implementation for Warp Terminal.
 
+It's a starting point for anyone who wants to create their own MCP server.  It's Warp-specific because I didn't taken the time to make it generic/universal.
+
 ## Installation
 
 ### Development Installation
